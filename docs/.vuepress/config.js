@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/note/',
+  base: '',
   dest: 'dist',
   title: 'Web前端笔记',
   description: '记录Web前端知识',
