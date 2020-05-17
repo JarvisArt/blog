@@ -18,7 +18,7 @@ absolute（绝对定位）：参考距其最近一个不为static的父级元素
 fixed（固定定位）：所固定的参照物对象是可视窗口  
 sticky（粘性定位）：它会固定在目标位置
 
-#### 4.CSS3有哪些新特性？:fire:
+#### 4.CSS3有哪些新特性？ :fire:
 
 [菜鸟教程CSS3目录](https://www.runoob.com/css3/css3-tutorial.html)
 
@@ -27,7 +27,7 @@ sticky（粘性定位）：它会固定在目标位置
 display：none 不显示对应的元素，在文档布局中不再分配空间（回流+重绘）  
 visibility：hidden 隐藏对应元素，在文档布局中仍保留原来的空间（重绘）  
 
-#### 6. 如何居中div(父元素宽高未知)？:fire:
+#### 6. 如何居中div(父元素宽高未知)？ :fire:
 
 一个水平垂直居中的库 [水平垂直居中，这是一道面试必考题](https://github.com/yanhaijing/vertical-center)
 
@@ -139,7 +139,7 @@ visibility：hidden 隐藏对应元素，在文档布局中仍保留原来的空
 }
 ```
 
-#### 7.BFC规范（块级格式化上下文：block formatting context）:fire:
+#### 7.BFC规范（块级格式化上下文：block formatting context） :fire:
 [掘金BFC详解](https://juejin.im/post/5ea45801e51d4546d4399055)  
 
 BFC规定了内部的Block Box如何布局：  

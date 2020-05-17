@@ -9,10 +9,13 @@ module.exports = {
     nav: [],
     sidebar: [
       {
-        title: '基础知识',
+        title: '常见知识',
         collapsable: false,
         children: [
           'chapter1/css',
+          'chapter1/js',
+          'chapter1/es6',
+          'chapter1/optimize',
         ]
       },
     ]
