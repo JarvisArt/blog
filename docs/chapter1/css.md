@@ -22,7 +22,7 @@ sticky（粘性定位）：它会固定在目标位置
 
 [菜鸟教程CSS3目录](https://www.runoob.com/css3/css3-tutorial.html)
 
-#### 5. display:none与visibility：hidden的区别
+#### 5. display:none 与 visibility:hidden 的区别
 
 display：none 不显示对应的元素，在文档布局中不再分配空间（回流+重绘）  
 visibility：hidden 隐藏对应元素，在文档布局中仍保留原来的空间（重绘）  
