@@ -14,6 +14,9 @@ module.exports = {
         children: [
           'chapter1/css',
           'chapter1/js',
+          'chapter1/es6',
+          'chapter1/vue',
+          'chapter1/other',
           'chapter1/optimize',
         ]
       },
