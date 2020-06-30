@@ -18,6 +18,7 @@ module.exports = {
           'chapter1/vue',
           'chapter1/other',
           'chapter1/optimize',
+          'chapter1/angular',
         ]
       },
     ]
