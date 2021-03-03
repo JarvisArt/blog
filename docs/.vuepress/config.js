@@ -19,6 +19,7 @@ module.exports = {
           'chapter1/other',
           'chapter1/optimize',
           'chapter1/rxjs',
+          'chapter1/git',
         ]
       },
     ]
