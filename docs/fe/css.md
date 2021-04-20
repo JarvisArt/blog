@@ -156,6 +156,3 @@ BFC的触发条件：
 &emsp;3.overflow的值不为visible（默认）  
 &emsp;4.display的值inline-block、table-cell、table-caption  
 &emsp;5.position的值为absolute、fixed
-
-
-

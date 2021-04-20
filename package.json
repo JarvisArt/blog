@@ -1,30 +1,9 @@
 {
-  "name": "note",
-  "version": "1.0.0",
-  "description": "doc for web node",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "gh-pages -d dist"
+    "build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JarvisArt/note.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JarvisArt/note/issues"
-  },
-  "homepage": "https://github.com/JarvisArt/note#readme",
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
-  },
-  "dependencies": {
-    "gh-pages": "^2.0.1"
+    "vuepress": "^1.8.2"
   }
 }
