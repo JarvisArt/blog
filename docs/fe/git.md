@@ -140,3 +140,9 @@ $ git remote -v
 # 将本地内容上传到服务器
 $ git push ssh://roo@182.61.20.102/var/git/project.git master	
 ```
+
+#### 其他
+```bash
+# 关闭文件名称忽略大小写
+$ git config core.ignorecase false
+```
