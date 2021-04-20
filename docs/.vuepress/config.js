@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Jarvis Bold',
   description: 'Just playing around',
+  base: '/blog/',
   themeConfig: {
     editLinks: false,
     docsDir: 'docs',
