@@ -15,6 +15,7 @@ module.exports = {
           'fe/js',
           'fe/es6',
           'fe/vue',
+          'fe/typescript',
           'fe/other',
           'fe/optimize',
           'fe/rxjs',
