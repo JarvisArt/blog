@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS | Jarvis Bold</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.b6bfb1ac.css" as="style"><link rel="preload" href="/blog/assets/js/app.a131c59a.js" as="script"><link rel="preload" href="/blog/assets/js/2.7b8085fe.js" as="script"><link rel="preload" href="/blog/assets/js/12.dd7966eb.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.f2e4166f.js"><link rel="prefetch" href="/blog/assets/js/11.8285d6bf.js"><link rel="prefetch" href="/blog/assets/js/13.dfcbc93f.js"><link rel="prefetch" href="/blog/assets/js/14.7753760d.js"><link rel="prefetch" href="/blog/assets/js/15.a12f7eec.js"><link rel="prefetch" href="/blog/assets/js/16.5723f670.js"><link rel="prefetch" href="/blog/assets/js/17.d98818f5.js"><link rel="prefetch" href="/blog/assets/js/3.ff26ccfb.js"><link rel="prefetch" href="/blog/assets/js/4.e05c873c.js"><link rel="prefetch" href="/blog/assets/js/5.76fc70b2.js"><link rel="prefetch" href="/blog/assets/js/6.498ab014.js"><link rel="prefetch" href="/blog/assets/js/7.47ca3ce9.js"><link rel="prefetch" href="/blog/assets/js/8.f68ce29d.js"><link rel="prefetch" href="/blog/assets/js/9.579fabeb.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.b6bfb1ac.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">Jarvis Bold</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>前端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/fe/css.html" class="sidebar-link">CSS</a></li><li><a href="/blog/fe/js.html" aria-current="page" class="active sidebar-link">JS</a></li><li><a href="/blog/fe/es6.html" class="sidebar-link">ES6</a></li><li><a href="/blog/fe/vue.html" class="sidebar-link">Vue</a></li><li><a href="/blog/fe/typescript.html" class="sidebar-link">TypeScript</a></li><li><a href="/blog/fe/other.html" class="sidebar-link">其他（待归类）</a></li><li><a href="/blog/fe/optimize.html" class="sidebar-link">性能优化</a></li><li><a href="/blog/fe/rxjs.html" class="sidebar-link">RXJS</a></li><li><a href="/blog/fe/git.html" class="sidebar-link">Git命令</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="js"><a href="#js" class="header-anchor">#</a> JS</h1> <h4 id="_1-javascript数据类型"><a href="#_1-javascript数据类型" class="header-anchor">#</a> 1. javascript数据类型 🔥</h4> <p>基本类型：<code>boolean、null、undefined、number、string、symbol</code><br>
+引用类型：<code>object、array、function</code></p> <h4 id="_2-this的指向"><a href="#_2-this的指向" class="header-anchor">#</a> 2. this的指向</h4> <h4 id="_3-数组和对象都有哪些循环的方法"><a href="#_3-数组和对象都有哪些循环的方法" class="header-anchor">#</a> 3. 数组和对象都有哪些循环的方法</h4> <h4 id="_4-什么是闭包"><a href="#_4-什么是闭包" class="header-anchor">#</a> 4. 什么是闭包 🔥</h4> <p>函数A内部有一个函数B,函数B可以访问到函数A的变量，那么函数B就是闭包。（闭包就是能够读取其他函数内部变量的函数）</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token constant">A</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">1</span>
+  window<span class="token punctuation">.</span><span class="token function-variable function">B</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token constant">A</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token constant">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 1</span>
+</code></pre></div><h4 id="_5-原型链"><a href="#_5-原型链" class="header-anchor">#</a> 5. 原型链</h4> <p><a href="https://github.com/mqyqingfeng/Blog/issues/2" target="_blank" rel="noopener noreferrer">JavaScript深入之从原型到原型链<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><br>
+原型链就是多个对象通过<code>__proto__</code>的方式连接了起来。为什么 obj 可以访问到 valueOf 函数，就是因为 obj 通过原型链找到了 valueOf 函数。</p> <ul><li>Object 是所有对象的爸爸，所有对象都可以通过<code>__proto__</code>找到它</li> <li>Function 是所有函数的爸爸，所有函数都可以通过<code>__proto__</code>找到它</li> <li>函数的 prototype 是一个对象</li> <li>对象的 <strong>proto</strong> 属性指向原型， <strong>proto</strong> 将对象和原型连接起来组成了原型链</li></ul> <h4 id="_6-生拷贝与浅拷贝"><a href="#_6-生拷贝与浅拷贝" class="header-anchor">#</a> 6. 生拷贝与浅拷贝</h4> <h4 id="_7-防抖与节流"><a href="#_7-防抖与节流" class="header-anchor">#</a> 7. 防抖与节流</h4> <h4 id="_8-cookie、localstorage、sessionstorage-的区别"><a href="#_8-cookie、localstorage、sessionstorage-的区别" class="header-anchor">#</a> 8. cookie、localstorage、sessionstorage 的区别</h4> <h4 id="_20-js有哪些设计模式"><a href="#_20-js有哪些设计模式" class="header-anchor">#</a> 20. js有哪些设计模式</h4></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/fe/css.html" class="prev">
+        CSS
+      </a></span> <span class="next"><a href="/blog/fe/es6.html">
+        ES6
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.a131c59a.js" defer></script><script src="/blog/assets/js/2.7b8085fe.js" defer></script><script src="/blog/assets/js/12.dd7966eb.js" defer></script>
+  </body>
+</html>

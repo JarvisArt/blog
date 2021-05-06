@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS | Jarvis Bold</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.b6bfb1ac.css" as="style"><link rel="preload" href="/blog/assets/js/app.a131c59a.js" as="script"><link rel="preload" href="/blog/assets/js/2.7b8085fe.js" as="script"><link rel="preload" href="/blog/assets/js/8.f68ce29d.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.f2e4166f.js"><link rel="prefetch" href="/blog/assets/js/11.8285d6bf.js"><link rel="prefetch" href="/blog/assets/js/12.dd7966eb.js"><link rel="prefetch" href="/blog/assets/js/13.dfcbc93f.js"><link rel="prefetch" href="/blog/assets/js/14.7753760d.js"><link rel="prefetch" href="/blog/assets/js/15.a12f7eec.js"><link rel="prefetch" href="/blog/assets/js/16.5723f670.js"><link rel="prefetch" href="/blog/assets/js/17.d98818f5.js"><link rel="prefetch" href="/blog/assets/js/3.ff26ccfb.js"><link rel="prefetch" href="/blog/assets/js/4.e05c873c.js"><link rel="prefetch" href="/blog/assets/js/5.76fc70b2.js"><link rel="prefetch" href="/blog/assets/js/6.498ab014.js"><link rel="prefetch" href="/blog/assets/js/7.47ca3ce9.js"><link rel="prefetch" href="/blog/assets/js/9.579fabeb.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.b6bfb1ac.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">Jarvis Bold</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>前端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/fe/css.html" aria-current="page" class="active sidebar-link">CSS</a></li><li><a href="/blog/fe/js.html" class="sidebar-link">JS</a></li><li><a href="/blog/fe/es6.html" class="sidebar-link">ES6</a></li><li><a href="/blog/fe/vue.html" class="sidebar-link">Vue</a></li><li><a href="/blog/fe/typescript.html" class="sidebar-link">TypeScript</a></li><li><a href="/blog/fe/other.html" class="sidebar-link">其他（待归类）</a></li><li><a href="/blog/fe/optimize.html" class="sidebar-link">性能优化</a></li><li><a href="/blog/fe/rxjs.html" class="sidebar-link">RXJS</a></li><li><a href="/blog/fe/git.html" class="sidebar-link">Git命令</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css"><a href="#css" class="header-anchor">#</a> CSS</h1> <h4 id="_1-介绍一下标准的css的盒子模型-与低版本ie的盒子模型有什么不同的"><a href="#_1-介绍一下标准的css的盒子模型-与低版本ie的盒子模型有什么不同的" class="header-anchor">#</a> 1. 介绍一下标准的CSS的盒子模型？与低版本IE的盒子模型有什么不同的？</h4> <p>标准盒子模型：宽度=内容的宽度（content）+ border + padding + margin<br>
+低版本IE盒子模型：宽度=内容宽度（content+border+padding）+ margin</p> <h4 id="_2-box-sizing属性"><a href="#_2-box-sizing属性" class="header-anchor">#</a> 2. box-sizing属性</h4> <p>context-box：W3C的标准盒子模型，设置元素的 height/width 属性指的是content部分的高/宽<br>
+border-box：IE传统盒子模型。设置元素的height/width属性指的是border + padding + content部分的高/宽</p> <h4 id="_3-position的属性"><a href="#_3-position的属性" class="header-anchor">#</a> 3. position的属性</h4> <p>static（默认）：按照正常文档流进行排列<br>
+relative（相对定位）：不脱离文档流，根据自身的静态位置通过top,bottom,left,right定位<br>
+absolute（绝对定位）：参考距其最近一个不为static的父级元素通过top,bottom,left,right定位<br>
+fixed（固定定位）：所固定的参照物对象是可视窗口<br>
+sticky（粘性定位）：它会固定在目标位置</p> <h4 id="_4-css3有哪些新特性"><a href="#_4-css3有哪些新特性" class="header-anchor">#</a> 4.CSS3有哪些新特性？ 🔥</h4> <p><a href="https://www.runoob.com/css3/css3-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程CSS3目录<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h4 id="_5-display-none-与-visibility-hidden-的区别"><a href="#_5-display-none-与-visibility-hidden-的区别" class="header-anchor">#</a> 5. display:none 与 visibility:hidden 的区别</h4> <p>display：none 不显示对应的元素，在文档布局中不再分配空间（回流+重绘）<br>
+visibility：hidden 隐藏对应元素，在文档布局中仍保留原来的空间（重绘）</p> <h4 id="_6-如何居中div-父元素宽高未知"><a href="#_6-如何居中div-父元素宽高未知" class="header-anchor">#</a> 6. 如何居中div(父元素宽高未知)？ 🔥</h4> <p>一个水平垂直居中的库 <a href="https://github.com/yanhaijing/vertical-center" target="_blank" rel="noopener noreferrer">水平垂直居中，这是一道面试必考题<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- 公共代码 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.parent</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.child</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid green<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>parent<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>child<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案一：（已知child宽高）absolute + -margin */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+  <span class="token property">margin-top</span><span class="token punctuation">:</span> -50px<span class="token punctuation">;</span>
+  <span class="token property">margin-left</span><span class="token punctuation">:</span> -50px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案二：（已知child宽高）absolute + calc */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>50% - 50px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>50% - 50px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案三：（未知child宽高）absolute + margin auto */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案四：（未知child宽高）flex */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案五：（未知child宽高）absolute + transform */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>-50%<span class="token punctuation">,</span> -50%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案六：（未知child宽高）table-cell */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> table-cell<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 方案七：（未知child宽高）grid */</span>
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+  <span class="token property">align-self</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">justify-self</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="_7-bfc规范-块级格式化上下文-block-formatting-context"><a href="#_7-bfc规范-块级格式化上下文-block-formatting-context" class="header-anchor">#</a> 7.BFC规范（块级格式化上下文：block formatting context） 🔥</h4> <p><a href="https://juejin.im/post/5ea45801e51d4546d4399055" target="_blank" rel="noopener noreferrer">掘金BFC详解<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>BFC规定了内部的Block Box如何布局：<br>
+ 1.内部的Box会在垂直方向上一个接一个放置<br>
+ 2.Box垂直方向的距离有margin决定，属于同一个BFC的两个相邻Box的margin会重叠<br>
+ 3.每个元素的margin box的左边，与包含块border box的左边相接触<br>
+ 4.BFC的区域不会与浮动元素重叠<br>
+ 5.BFC是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素<br>
+ 6.计算BFC的高度时，浮动元素也会参与计算</p> <p>BFC的触发条件：<br>
+ 1.根元素，即html<br>
+ 2.float的值不为node（默认）<br>
+ 3.overflow的值不为visible（默认）<br>
+ 4.display的值inline-block、table-cell、table-caption<br>
+ 5.position的值为absolute、fixed</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/blog/fe/js.html">
+        JS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.a131c59a.js" defer></script><script src="/blog/assets/js/2.7b8085fe.js" defer></script><script src="/blog/assets/js/8.f68ce29d.js" defer></script>
+  </body>
+</html>
