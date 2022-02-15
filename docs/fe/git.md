@@ -145,4 +145,8 @@ $ git push ssh://roo@182.61.20.102/var/git/project.git master
 ```bash
 # 关闭文件名称忽略大小写
 $ git config core.ignorecase false
+
+# 拉取远程分支到本地
+$ git fetch origin branchname
+$ git checkout -b branchname origin/branchname
 ```

@@ -3,23 +3,24 @@ module.exports = {
   description: 'Just playing around',
   base: '/blog/',
   themeConfig: {
-    editLinks: false,
+    editLinks: true,
     docsDir: 'docs',
     nav: [],
     sidebar: [
       {
-        title: '前端',
-        collapsable: false,
+        text: '前端',
+        link: '/fe/',
         children: [
-          'fe/css',
-          'fe/js',
-          'fe/es6',
-          'fe/vue',
-          'fe/typescript',
-          'fe/other',
-          'fe/optimize',
-          'fe/rxjs',
-          'fe/git',
+          'css',
+          'js',
+          'es6',
+          'vue',
+          'react-hooks',
+          'typescript',
+          'other',
+          'optimize',
+          'rxjs',
+          'git',
         ]
       },
     ]

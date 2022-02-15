@@ -1,8 +1,10 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: 开始阅读
-actionLink: /fe/css
+actions:
+  - text: 开始阅读
+    link: /fe/css
+    type: primary
 footer: MIT Licensed | Copyright © 2021-present JarvisArt
 ---
 

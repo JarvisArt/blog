@@ -5,6 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 yarn.lock
+.temp
+.cache
 
 # dist
 docs/.vuepress/dist
